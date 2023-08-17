@@ -13,11 +13,12 @@
 		164C551D2A8E911900C3261D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164C551B2A8E911900C3261D /* Main.storyboard */; };
 		164C551F2A8E911A00C3261D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164C551E2A8E911A00C3261D /* Assets.xcassets */; };
 		164C55222A8E911A00C3261D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164C55202A8E911A00C3261D /* LaunchScreen.storyboard */; };
-		164C552D2A8E911A00C3261D /* OutletConnectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C552C2A8E911A00C3261D /* OutletConnectionsTests.swift */; };
 		164C55372A8E911A00C3261D /* OutletConnectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55362A8E911A00C3261D /* OutletConnectionsUITests.swift */; };
 		164C55392A8E911A00C3261D /* OutletConnectionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55382A8E911A00C3261D /* OutletConnectionsUITestsLaunchTests.swift */; };
 		164C55462A8E914100C3261D /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55452A8E914100C3261D /* TestingAppDelegate.swift */; };
 		164C554A2A8E939600C3261D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55492A8E939600C3261D /* main.swift */; };
+		164C554D2A8E975800C3261D /* OutletConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C554B2A8E975800C3261D /* OutletConnectionsViewController.swift */; };
+		164C554E2A8E975800C3261D /* OutletConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164C554C2A8E975800C3261D /* OutletConnectionsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +48,13 @@
 		164C55212A8E911A00C3261D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		164C55232A8E911A00C3261D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		164C55282A8E911A00C3261D /* OutletConnectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutletConnectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		164C552C2A8E911A00C3261D /* OutletConnectionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsTests.swift; sourceTree = "<group>"; };
 		164C55322A8E911A00C3261D /* OutletConnectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutletConnectionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		164C55362A8E911A00C3261D /* OutletConnectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsUITests.swift; sourceTree = "<group>"; };
 		164C55382A8E911A00C3261D /* OutletConnectionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		164C55452A8E914100C3261D /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
 		164C55492A8E939600C3261D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		164C554B2A8E975800C3261D /* OutletConnectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsViewController.swift; sourceTree = "<group>"; };
+		164C554C2A8E975800C3261D /* OutletConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutletConnectionsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,8 @@
 				164C551E2A8E911A00C3261D /* Assets.xcassets */,
 				164C55202A8E911A00C3261D /* LaunchScreen.storyboard */,
 				164C55232A8E911A00C3261D /* Info.plist */,
+				164C554B2A8E975800C3261D /* OutletConnectionsViewController.swift */,
+				164C554C2A8E975800C3261D /* OutletConnectionsViewController.xib */,
 			);
 			path = OutletConnections;
 			sourceTree = "<group>";
@@ -118,7 +122,6 @@
 		164C552B2A8E911A00C3261D /* OutletConnectionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				164C552C2A8E911A00C3261D /* OutletConnectionsTests.swift */,
 				164C55452A8E914100C3261D /* TestingAppDelegate.swift */,
 			);
 			path = OutletConnectionsTests;
@@ -240,6 +243,7 @@
 				164C55222A8E911A00C3261D /* LaunchScreen.storyboard in Resources */,
 				164C551F2A8E911A00C3261D /* Assets.xcassets in Resources */,
 				164C551D2A8E911900C3261D /* Main.storyboard in Resources */,
+				164C554E2A8E975800C3261D /* OutletConnectionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +272,7 @@
 				164C55162A8E911900C3261D /* AppDelegate.swift in Sources */,
 				164C554A2A8E939600C3261D /* main.swift in Sources */,
 				164C55182A8E911900C3261D /* SceneDelegate.swift in Sources */,
+				164C554D2A8E975800C3261D /* OutletConnectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				164C552D2A8E911A00C3261D /* OutletConnectionsTests.swift in Sources */,
 				164C55462A8E914100C3261D /* TestingAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
