@@ -19,6 +19,7 @@
 		164C554A2A8E939600C3261D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55492A8E939600C3261D /* main.swift */; };
 		164C554D2A8E975800C3261D /* OutletConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C554B2A8E975800C3261D /* OutletConnectionsViewController.swift */; };
 		164C554E2A8E975800C3261D /* OutletConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164C554C2A8E975800C3261D /* OutletConnectionsViewController.xib */; };
+		164C55522A8E986200C3261D /* OutletConnectionsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55512A8E986200C3261D /* OutletConnectionsViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		164C55492A8E939600C3261D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		164C554B2A8E975800C3261D /* OutletConnectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsViewController.swift; sourceTree = "<group>"; };
 		164C554C2A8E975800C3261D /* OutletConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutletConnectionsViewController.xib; sourceTree = "<group>"; };
+		164C55512A8E986200C3261D /* OutletConnectionsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				164C55452A8E914100C3261D /* TestingAppDelegate.swift */,
+				164C55512A8E986200C3261D /* OutletConnectionsViewControllerTests.swift */,
 			);
 			path = OutletConnectionsTests;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				164C55462A8E914100C3261D /* TestingAppDelegate.swift in Sources */,
+				164C55522A8E986200C3261D /* OutletConnectionsViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
