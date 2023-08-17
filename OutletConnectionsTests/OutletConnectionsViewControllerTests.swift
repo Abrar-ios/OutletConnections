@@ -9,7 +9,9 @@ import XCTest
 @testable import OutletConnections
 
 final class OutletConnectionsViewControllerTest: XCTestCase {
-    func test_zero(){
-        XCTFail("There is no tests are implemented in OutletConnectionsViewControllerTest suit yet")
+    func test_outlets_shouldBeczonnected(){
+        let sut = OutletConnectionsViewController()
+        sut.loadViewIfNeeded()
+        
     }
 }
